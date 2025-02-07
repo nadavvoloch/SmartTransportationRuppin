@@ -7,7 +7,7 @@ It allows for **real-time traffic light management, vehicle speed/lane changes**
 ---
 
 ## 📂 Project Structure
-![image](https://github.com/user-attachments/assets/67542c14-89c2-42fb-b611-2c72bbeba211)
+![image](https://github.com/user-attachments/assets/3c1395ed-4977-4a97-8080-ecca65413181)
 ```
 sumo_running_simulation/
 │── core/                  # Core simulation logic (Python classes)
