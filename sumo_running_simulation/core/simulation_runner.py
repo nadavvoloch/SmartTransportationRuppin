@@ -1,8 +1,8 @@
 import traci
 import time
 from .logger import Logger
-from .traffic import TrafficController
-from .vehicle import VehicleController
+from .traffic_controller import TrafficController
+from .vehicle_controller import VehicleController
 
 class SimulationRunner:
     def __init__(self):
