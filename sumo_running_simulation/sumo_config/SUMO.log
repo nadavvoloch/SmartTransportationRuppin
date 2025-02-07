@@ -1,6 +1,6 @@
-***Starting server on port 50640 ***
-Loading net-file from 'sumo_config/StudyAreNetwork.net.xml' ... done (12ms).
-Loading additional-files from 'sumo_config/PublicTransport.xml' ... done (13ms).
+***Starting server on port 51284 ***
+Loading net-file from 'sumo_config/StudyAreNetwork.net.xml' ... done (13ms).
+Loading additional-files from 'sumo_config/PublicTransport.xml' ... done (14ms).
 Loading route-files incrementally from 'sumo_config/demand.rou.xml'
 Loading done.
 Warning: The 'filename' attribute is deprecated for decals. Please use 'file'.
@@ -8,13 +8,13 @@ Simulation started with time: 0.00.
 Simulation ended at time: 100.00.
 Reason: TraCI requested termination.
 Performance:
- Duration: 14.72s
- TraCI-Duration: 9.10s
- Real time factor: 6.79302
- UPS: 429.794172
+ Duration: 27.45s
+ TraCI-Duration: 8.75s
+ Real time factor: 3.64272
+ UPS: 230.475011
 Vehicles:
  Inserted: 149 (Loaded: 204)
  Running: 93
  Waiting: 55
 DijkstraRouter answered 226 queries and explored 13.31 edges on average.
-DijkstraRouter spent 0.01s answering queries (0.03ms on average).
+DijkstraRouter spent 0.00s answering queries (0.00ms on average).
