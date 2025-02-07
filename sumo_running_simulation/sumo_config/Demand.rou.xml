@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 01/12/20 12:26:32 by Eclipse SUMO netedit Version 1.3.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="D:\Meus%20documentos\Dropbox\Sumo\StudyAreNetwork.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\Meus%20documentos\Dropbox\Sumo\StudyAreNetwork.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <opposites.guess.fix-lengths value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <route-files value="D:\Meus%20documentos\Dropbox\Sumo\Demand.rou.xml"/>
+    </netedit>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="myBus" vClass="bus"/>
+    <vType id="myMonsterTruck" length="30.00" maxSpeed="10.00" vClass="custom1" accel="0.3" decel="0.1"/>
+    <vType id="myMotorcycle" vClass="motorcycle"/>
+    <vType id="myTaxi" vClass="taxi"/>
+    <vType id="myTruck" vClass="truck"/>
+    <vType id="vType_0"/>
+    <trip id="trip_0" depart="0.00" color="magenta" from="gneE0" to="gneE46"/>
+    <trip id="trip_1" type="myMonsterTruck" depart="0.00" from="gneE0" to="gneE46"/>
+   
+    <flow id="flow_0" type="myBus" begin="0.00" color="green" from="gneE0" to="gneE46" end="3600.00" vehsPerHour="60" >
+       <stop busStop="busStop_gneE16_0_0" duration = "10" />
+       <stop busStop="busStop_gneE30_0_4" duration = "10" />
+    </flow>
+
+    <flow id="flow_111" type="myBus" begin="0.00" color="blue" from="gneE0" to="gneE46" end="3600.00" vehsPerHour="60" >
+       <stop busStop="busStop_gneE16_0_1" duration = "10" />
+       <stop busStop="busStop_gneE30_0_5" duration = "10" />
+    </flow>
+
+   <flow id="flow_222" type="myBus" begin="0.00" color="magenta" from="gneE0" to="gneE46" end="3600.00" vehsPerHour="60" >
+       <stop busStop="busStop_gneE16_0_2" duration = "10" />
+       <stop busStop="busStop_gneE30_0_6" duration = "10" />
+    </flow>
+
+    <flow id="flow_333" type="myBus" begin="0.00" color="orange" from="gneE0" to="gneE46" end="3600.00" vehsPerHour="60" >
+       <stop busStop="busStop_gneE16_0_3" duration = "10" />
+       <stop busStop="busStop_gneE30_0_7" duration = "10" />
+    </flow>
+
+    <flow id="flow_444" type="myBus" begin="0.00" color="green" from="gneE47" to="gneE7" end="3600.00" vehsPerHour="60.00" >
+       <stop busStop="busStop_gneE31_0_8" duration = "10" />
+       <stop busStop="busStop_gneE18_0_10" duration = "10" />
+    </flow>
+
+    <flow id="flow_555" type="myBus" begin="0.00" color="green" from="gneE47" to="gneE7" end="3600.00" vehsPerHour="60.00" >
+       <stop busStop="busStop_gneE31_0_9" duration = "10" />
+       <stop busStop="busStop_gneE18_0_11" duration = "10" />
+    </flow>
+
+    <flow id="flow_666" type="myBus" begin="0.00" color="green" from="gneE47" to="gneE7" end="3600.00" vehsPerHour="60.00" >
+       <stop busStop="busStop_gneE31_0_9" duration = "10" />
+       <stop busStop="busStop_gneE18_0_12" duration = "10" />
+    </flow>
+
+    <flow id="flow_10" type="myMotorcycle" begin="0.00" color="blue" from="gneE37" to="gneE41" end="3600.00" vehsPerHour="50.00"/>
+    <flow id="flow_11" type="myMotorcycle" begin="0.00" color="blue" from="gneE43" to="gneE39" end="3600.00" vehsPerHour="50.00"/>
+    <flow id="flow_12" type="myTaxi" begin="0.00" color="white" from="gneE0" to="gneE46" end="3600.00" vehsPerHour="120.00"/>
+    <flow id="flow_13" type="myTaxi" begin="0.00" color="white" from="gneE47" to="gneE7" end="3600.00" vehsPerHour="120.00"/>
+    <flow id="flow_14" type="myTaxi" begin="0.00" color="white" from="gneE0" to="gneE9" end="3600.00" vehsPerHour="50.00"/>
+    <flow id="flow_15" type="myTaxi" begin="0.00" color="white" from="gneE19" to="gneE22" end="3600.00" vehsPerHour="30.00"/>
+    <flow id="flow_16" type="myTaxi" begin="0.00" color="white" from="gneE24" to="gneE27" end="3600.00" vehsPerHour="30.00"/>
+    <flow id="flow_17" type="myTaxi" begin="0.00" color="white" from="gneE37" to="gneE41" end="3600.00" vehsPerHour="30.00"/>
+    <flow id="flow_18" type="myTaxi" begin="0.00" color="white" from="gneE43" to="gneE39" end="3600.00" vehsPerHour="30.00"/>
+    <flow id="flow_19" type="myTruck" begin="0.00" from="gneE0" to="gneE46" end="3600.00" vehsPerHour="60.00"/>
+    <flow id="flow_2" type="myMotorcycle" begin="0.00" color="blue" from="gneE0" to="gneE46" end="3600.00" vehsPerHour="400.00"/>
+    <flow id="flow_20" type="myTruck" begin="0.00" from="gneE47" to="gneE7" end="3600.00" vehsPerHour="60.00"/>
+    <flow id="flow_21" type="myTruck" begin="0.00" from="gneE24" to="gneE27" end="3600.00" vehsPerHour="60.00"/>
+    <flow id="flow_22" type="myTruck" begin="0.00" from="gneE37" to="gneE41" end="3600.00" vehsPerHour="60.00"/>
+    <flow id="flow_23" type="myTruck" begin="0.00" from="gneE43" to="gneE39" end="3600.00" vehsPerHour="60.00"/>
+    <flow id="flow_24" type="myTruck" begin="0.00" from="gneE3" to="gneE9" end="3600.00" vehsPerHour="60.00"/>
+    <flow id="flow_25" begin="0.00" from="gneE0" to="gneE46" end="3600.00" vehsPerHour="1200.00"/>
+    <flow id="flow_26" begin="0.00" from="gneE47" to="gneE7" end="3600.00" vehsPerHour="1200.00"/>
+    <flow id="flow_27" begin="0.00" from="gneE37" to="gneE41" end="3600.00" vehsPerHour="300.00"/>
+    <flow id="flow_28" begin="0.00" from="gneE43" to="gneE39" end="3600.00" vehsPerHour="300.00"/>
+    <flow id="flow_29" begin="0.00" from="gneE5" to="gneE2" end="3600.00" vehsPerHour="300.00"/>
+    <flow id="flow_3" type="myMotorcycle" begin="0.00" from="gneE47" to="gneE7" end="3600.00" vehsPerHour="400.00"/>
+    <flow id="flow_30" begin="0.00" from="gneE3" to="gneE9" end="3600.00" vehsPerHour="300.00"/>
+    <flow id="flow_31" begin="0.00" from="gneE19" to="gneE23" end="3600.00" vehsPerHour="300.00"/>
+    <flow id="flow_32" begin="0.00" from="gneE24" to="gneE27" end="3600.00" vehsPerHour="300.00"/>
+    <flow id="flow_4" type="myMotorcycle" begin="0.00" color="blue" from="gneE47" to="gneE41" end="3600.00" vehsPerHour="50.00"/>
+    <flow id="flow_5" type="myMotorcycle" begin="0.00" from="gneE0" to="gneE9" end="3600.00" vehsPerHour="50.00"/>
+    <flow id="flow_6" type="myMotorcycle" begin="0.00" from="gneE5" to="gneE2" end="3600.00" vehsPerHour="50.00"/>
+    <flow id="flow_7" type="myMotorcycle" begin="0.00" from="gneE3" to="gneE9" end="3600.00" vehsPerHour="50.00"/>
+    <flow id="flow_8" type="myMotorcycle" begin="0.00" from="gneE19" to="gneE23" end="3600.00" vehsPerHour="50.00"/>
+    <flow id="flow_9" type="myMotorcycle" begin="0.00" from="gneE24" to="gneE27" end="3600.00" vehsPerHour="50.00"/>
+</routes>
