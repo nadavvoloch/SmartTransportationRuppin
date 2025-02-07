@@ -75,7 +75,7 @@ sumo_running_simulation/
 
 ---
 
-## 📜 Example Log Output
+## 📜 Example Log And Output
 ```
 [2025-02-07 17:15:30] [INFO] ✅ Simulation started successfully with SUMO-GUI!
 [2025-02-07 17:15:31] [INFO] 🔹 Step 1: 5 vehicles on the road
@@ -84,5 +84,6 @@ sumo_running_simulation/
 [2025-02-07 17:15:40] [INFO] 🔄 Vehicle 'veh_51' changed to lane 1
 [2025-02-07 17:16:00] [INFO] 🔚 Simulation finished and closed successfully!
 ```
+![image](https://github.com/user-attachments/assets/e8772671-b456-42bc-ad83-37ada5002161)
 
 ---
