@@ -15,9 +15,9 @@ sumo_running_simulation/
 │── core/                  # Core simulation logic (Python classes)
 │   ├── __init__.py        # Marks 'core' as a package
 │   ├── logger.py          # Logger class (handles logging to console + file)
-│   ├── simulation.py      # SimulationRunner (controls SUMO execution)
-│   ├── traffic.py         # TrafficController (manages traffic lights)
-│   ├── vehicle.py         # VehicleController (manages vehicles)
+│   ├── simulation_runner.py      # SimulationRunner (controls SUMO execution)
+│   ├── traffic_controller.py         # TrafficController (manages traffic lights)
+│   ├── vehicle_controller.py         # VehicleController (manages vehicles)
 │── main/                  # Main entry point for running the simulation
 │   ├── __pycache__/       # (Auto-generated) Compiled Python files
 │   ├── main.py            # Runs the SUMO simulation
