@@ -1,6 +1,4 @@
-﻿# SmartTransportationRuppin
-
-# SUMO Traffic Simulation Project 🚗🚦
+﻿# SUMO Traffic Simulation Project 🚗🚦
 
 ## 📌 Overview
 This project is a **SUMO (Simulation of Urban Mobility) traffic simulation** controlled via **Python (TraCI)**.  
