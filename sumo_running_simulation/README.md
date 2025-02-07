@@ -33,7 +33,7 @@ sumo_running_simulation/
 
 ---
 
-## 🚀 How to Run the Simulation
+## 🚀 How to Run the Simulation:
 1. **Install SUMO** (if not installed):
    - Download from: [https://sumo.dlr.de/docs/Downloads.html](https://sumo.dlr.de/docs/Downloads.html)
    - Add SUMO to your system's `PATH` (for `sumo-gui` to work).
