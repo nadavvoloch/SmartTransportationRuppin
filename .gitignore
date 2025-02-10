@@ -1,0 +1,5 @@
+sumo_running_simulation/sumo_config/SUMO.log
+sumo_running_simulation/core/__pycache__
+sumo_running_simulation/main/simulation_log.log
+sumo_running_simulation/main/__pycache__/main.cpython-39.pyc
+sumo_running_simulation/sumo_config/SUMO.log
