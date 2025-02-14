@@ -41,7 +41,7 @@ class SimulationRunner:
         # Initialize controllers
         self.traffic_controller = TrafficController(self.logger)
         self.vehicle_controller = VehicleController(self.logger)
-
+        # Any appeal to traci should be done from VehicleController 
         # Simulation parameters
         self.num_of_steps = 100
         self.most_veh = 0

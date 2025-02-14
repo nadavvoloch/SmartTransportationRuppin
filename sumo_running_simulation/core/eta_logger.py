@@ -6,6 +6,7 @@ class ETAFileLogger:
     
     def __init__(self, log_file_path="custom_ETA_vehicle_log.log"):
         self.log_file = open(log_file_path, "w", encoding="utf-8")
+        self.log("ETA tracking log file initialized.", "INFO", "cyan", class_name="ETAFileLogger", function_name="__init__")
         
 
     def log(self, message, level="INFO", color=None, class_name="", function_name=""):

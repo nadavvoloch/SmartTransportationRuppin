@@ -7,6 +7,8 @@ class Logger:
     def __init__(self, log_file_path="main/simulation_log.log"):
         """ Initialize the logger with a log file path. """
         self.log_file = open(log_file_path, "w", encoding="utf-8")
+        self.log("Simulation log file initialized.", "INFO", "cyan", 
+                 class_name="Logger", function_name="__init__")
 
     def log(self, message, level="INFO", color=None, class_name="UNKNOWN", function_name="UNKNOWN"):
         """

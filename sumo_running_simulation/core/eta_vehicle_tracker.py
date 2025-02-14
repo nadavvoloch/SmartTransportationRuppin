@@ -24,6 +24,9 @@ class ETAVehicleTracker(VehicleTrackerPlugin):
                             "INFO", "cyan", class_name="ETAVehicleTracker", function_name="initialize_tracking")
         except traci.TraCIException:
             self.logger.log(f"Vehicle {self.vehicle_id} not found in simulation.", "ERROR", "red", class_name="ETAVehicleTracker", function_name="initialize_tracking")
+        except Exception as e:
+            self.logger.log(f"Error initializing tracking for vehicle {self.vehicle_id}: {e}", "ERROR", "red", 
+                            class_name="ETAVehicleTracker", function_name="initialize_tracking")
 
     def track_vehicle(self, step):
         """ Tracks vehicle movement and calculates estimated arrival time. """
