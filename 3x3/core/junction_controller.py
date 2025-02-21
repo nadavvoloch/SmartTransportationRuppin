@@ -28,35 +28,35 @@ class JunctionController:
         """ Retrieves detailed information about a specific junction. """
         info = {}
 
-        # מיקום הצומת
+        # position of the junction
         position = traci.junction.getPosition(junction_id)
         info["Position"] = f"({position[0]:.2f}, {position[1]:.2f})"
 
-        # כמות הרכבים בצומת
+        # count of vehicles in the junction
         vehicles_nearby = traci.junction.getContextSubscriptionResults(junction_id)
         vehicle_count = len(vehicles_nearby) if vehicles_nearby else 0
         info["Vehicles in Junction"] = vehicle_count
 
-        # מצב רמזור
+        # traffic light state
         if junction_id in traci.trafficlight.getIDList():
             light_state = traci.trafficlight.getRedYellowGreenState(junction_id)
             info["Traffic Light State"] = light_state
         else:
             info["Traffic Light State"] = "No Traffic Light"
 
-        # מציאת כל ה-Edges המחוברים לצומת
+        # finding all edges connected to the junction
         incoming_edges = traci.junction.getIncomingEdges(junction_id)
         outgoing_edges = traci.junction.getOutgoingEdges(junction_id)
         all_edges = list(set(incoming_edges + outgoing_edges))
 
-        # סינון Edges פנימיים
+        # internal edges are edges that are not connected to any other 
         real_edges = [edge for edge in all_edges if not edge.startswith(":")]
         internal_edges = [edge for edge in all_edges if edge.startswith(":")]
 
         info["Connected Edges"] = real_edges
         info["Internal Edges"] = internal_edges
 
-        # מציאת כל ה-Lanes המחוברים לצומת
+        # finding all lanes connected to the junction
         real_lanes = []
         internal_lanes = []
 
@@ -75,7 +75,7 @@ class JunctionController:
         info["Connected Lanes"] = real_lanes
         info["Internal Lanes"] = internal_lanes
 
-        # אם נשלח דגל `export_graph=True`, נייצא את הגרף
+        # if true - export the network graph
         if export_graph:
             self.export_network_graph()
 
@@ -101,10 +101,10 @@ class JunctionController:
         self.logger.log("📡 Exporting network graph...", "INFO", 
                         class_name="JunctionController", function_name="export_network_graph")
 
-        # יצירת גרף ריק
+        # create empty directed graph
         G = nx.DiGraph()
 
-        # שליפת כל הצמתים והחיבורים
+        # pull all junctions and their outgoing edges
         junctions = self.get_all_junctions()
         for junction in junctions:
             edges = traci.junction.getOutgoingEdges(junction)
@@ -112,12 +112,12 @@ class JunctionController:
                 outgoing_junction = traci.edge.getToJunction(edge)  # הצומת שמחובר אליו
                 G.add_edge(junction, outgoing_junction)  # הוספת חיבור לגרף
 
-        # ציור הגרף
+        # graph layout
         plt.figure(figsize=(8, 6))
         pos = nx.spring_layout(G, seed=42)  # עיצוב הפריסה של הצמתים
         nx.draw(G, pos, with_labels=True, node_color="lightblue", edge_color="gray", node_size=1500, font_size=10)
 
-        # שמירת הגרף כתמונה
+        # save and close
         plt.title("SUMO Network Graph")
         plt.savefig("network_graph.png")
         plt.close()
