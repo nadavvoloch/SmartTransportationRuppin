@@ -21,9 +21,9 @@ class SimulationRunner:
             traci.close()
 
         # Start SUMO-GUI with the simulation configuration
-        sumo_cmd = ["sumo-gui", "-c", "sumo_config/my_3x3_simulation.sumocfg", "--start"]
+        sumo_cmd = ["sumo", "-c", "sumo_config/my_3x3_simulation.sumocfg", "--start"]
         traci.start(sumo_cmd)
-        self.logger.log("✅ Simulation started successfully with SUMO-GUI!", "INFO", "green",
+        self.logger.log("✅ Simulation started successfully with SUMO!", "INFO", "green",
                         class_name="SimulationRunner", function_name="__init__", print_to_console=True)
         
         # Initialize controllers
@@ -116,14 +116,14 @@ class SimulationRunner:
         dynamic_nodes = self.get_dynamic_nodes()
 
         # סינון צמתים פנימיים
-        filtered_static_nodes = [node for node in static_nodes if not node.startswith(":")]
+        self.filtered_static_nodes = [node for node in static_nodes if not node.startswith(":")]
 
         # Log the nodes to the nodes log file
         self.nodes_logger.log("-------------------------", "INFO", 
                             class_name="SimulationRunner", function_name="log_nodes")
         self.nodes_logger.log(f"🔹 Step #{step_number}", "INFO",
                             class_name="SimulationRunner", function_name="log_nodes")
-        self.nodes_logger.log(f"📍 Static Nodes Count (Real Only): {len(filtered_static_nodes)}", "INFO",
+        self.nodes_logger.log(f"📍 Static Nodes Count (Real Only): {len(self.filtered_static_nodes)}", "INFO",
                             class_name="SimulationRunner", function_name="log_nodes")
         self.nodes_logger.log(f"🚗 Dynamic Nodes Count: {len(dynamic_nodes)}", "INFO",
                             class_name="SimulationRunner", function_name="log_nodes")
@@ -131,7 +131,7 @@ class SimulationRunner:
         
 
         # הצגת מידע מפורט על כל צומת
-        for junction_id in filtered_static_nodes:
+        for junction_id in self.filtered_static_nodes:
             junction_info = self.junction_controller.get_junction_info(junction_id)
             
             # לוג מסודר ומפורמט
@@ -152,5 +152,5 @@ class SimulationRunner:
 
         # export_graph_flag = True if step_number % 5 == 0 else False
 
-        if step_number == 1:
-            self.junction_controller.export_network_graph()
+        if step_number % 10 == 0:
+            self.junction_controller.export_network_graph(step_number, self.filtered_static_nodes)

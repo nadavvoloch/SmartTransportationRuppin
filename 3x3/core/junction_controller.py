@@ -96,7 +96,7 @@ class JunctionController:
             self.logger.log(log_message, "INFO",
                             class_name="JunctionController", function_name="log_all_junctions_info")
 
-    def export_network_graph(self):
+    def export_network_graph(self, step_number, _filtered_static_nodes):
         """ Exports the network graph as an image using matplotlib. """
         self.logger.log("📡 Exporting network graph...", "INFO", 
                         class_name="JunctionController", function_name="export_network_graph")
@@ -105,23 +105,25 @@ class JunctionController:
         plt.figure(figsize=(12, 10))
 
         # pull all junctions and their outgoing edges
-        junctions = self.get_all_junctions()
-        junction_positions = {junction: traci.junction.getPosition(junction) for junction in junctions}
+        junction_positions = {junction: traci.junction.getPosition(junction) for junction in _filtered_static_nodes}
 
         for junction, position in junction_positions.items():
-            plt.scatter(position[0], position[1], s=100, c='lightblue', edgecolors='black', zorder=5)
-            plt.text(position[0], position[1] + 2, junction, fontsize=12, ha='center', zorder=10, 
-                     bbox=dict(facecolor='white', alpha=0.6, edgecolor='none'))
+            plt.scatter(position[0], position[1], s=100, c='red', edgecolors='black', zorder=5)
 
             # get vehicles near the junction
             vehicles_nearby = traci.junction.getContextSubscriptionResults(junction)
             vehicle_count = len(vehicles_nearby) if vehicles_nearby else 0
-            plt.text(position[0], position[1] - 5, f"Vehicles: {vehicle_count}", fontsize=10, ha='center', zorder=10, 
+            plt.text(position[0], position[1] + 20, f"{junction}\nVehicles: {vehicle_count}", fontsize=12, ha='center', zorder=10, 
                      bbox=dict(facecolor='white', alpha=0.6, edgecolor='none'))
 
+            # get real edges connected to the junction
+            incoming_edges = traci.junction.getIncomingEdges(junction)
+            outgoing_edges = traci.junction.getOutgoingEdges(junction)
+            all_edges = list(set(incoming_edges + outgoing_edges))
+            real_edges = [edge for edge in all_edges if not edge.startswith(":")]
+
             # draw edges and count vehicles on them
-            edges = traci.junction.getOutgoingEdges(junction)
-            for edge in edges:
+            for edge in real_edges:
                 outgoing_junction = traci.edge.getToJunction(edge)
                 outgoing_position = traci.junction.getPosition(outgoing_junction)
                 plt.plot([position[0], outgoing_position[0]], [position[1], outgoing_position[1]], 'gray', zorder=1)
@@ -130,15 +132,15 @@ class JunctionController:
                 vehicles_on_edge = traci.edge.getLastStepVehicleNumber(edge)
                 mid_x = (position[0] + outgoing_position[0]) / 2
                 mid_y = (position[1] + outgoing_position[1]) / 2
-                plt.text(mid_x, mid_y, str(vehicles_on_edge), fontsize=10, ha='center', zorder=10, 
-                         bbox=dict(facecolor='white', alpha=0.6, edgecolor='none'))
+                plt.text(mid_x, mid_y - 40, str(vehicles_on_edge), fontsize=10, ha='center', zorder=10, 
+                            bbox=dict(facecolor='white', alpha=0.6, edgecolor='none'))
 
         # save and close
         plt.title("SUMO Network Graph")
         plt.xlabel("X Coordinate")
         plt.ylabel("Y Coordinate")
         plt.grid(True)
-        plt.savefig("network_graph.png")
+        plt.savefig(f"network_graph_step_{step_number}.png")
         plt.close()
 
         self.logger.log("✅ Network graph exported successfully as 'network_graph.png'", "INFO", 
