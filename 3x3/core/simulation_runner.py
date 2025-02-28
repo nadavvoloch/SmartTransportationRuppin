@@ -128,11 +128,11 @@ class SimulationRunner:
         self.nodes_logger.log(f"🚗 Dynamic Nodes Count: {len(dynamic_nodes)}", "INFO",
                             class_name="SimulationRunner", function_name="log_nodes")
 
-        export_graph_flag = True if step_number % 10 == 0 else False
+        
 
         # הצגת מידע מפורט על כל צומת
         for junction_id in filtered_static_nodes:
-            junction_info = self.junction_controller.get_junction_info(junction_id, export_graph=export_graph_flag)
+            junction_info = self.junction_controller.get_junction_info(junction_id)
             
             # לוג מסודר ומפורמט
             log_message = f"""🔹 Junction {junction_id} 
@@ -149,3 +149,8 @@ class SimulationRunner:
 
         self.nodes_logger.log(f"Dynamic Nodes: {dynamic_nodes}", "INFO",
                             class_name="SimulationRunner", function_name="log_nodes")
+
+        # export_graph_flag = True if step_number % 5 == 0 else False
+
+        if step_number == 1:
+            self.junction_controller.export_network_graph()

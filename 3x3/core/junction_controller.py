@@ -24,7 +24,7 @@ class JunctionController:
                 20.0  # radius in meters to track vehicles around the junction
             )
 
-    def get_junction_info(self, junction_id, export_graph=False):
+    def get_junction_info(self, junction_id):
         """ Retrieves detailed information about a specific junction. """
         info = {}
 
@@ -75,9 +75,9 @@ class JunctionController:
         info["Connected Lanes"] = real_lanes
         info["Internal Lanes"] = internal_lanes
 
-        # if true - export the network graph
-        if export_graph:
-            self.export_network_graph()
+        # # if true - export the network graph
+        # if export_graph:
+        #     self.export_network_graph()
 
         return info
 
@@ -97,28 +97,47 @@ class JunctionController:
                             class_name="JunctionController", function_name="log_all_junctions_info")
 
     def export_network_graph(self):
-        """ Exports the network graph as an image using NetworkX. """
+        """ Exports the network graph as an image using matplotlib. """
         self.logger.log("📡 Exporting network graph...", "INFO", 
                         class_name="JunctionController", function_name="export_network_graph")
 
-        # create empty directed graph
-        G = nx.DiGraph()
+        # create figure
+        plt.figure(figsize=(12, 10))
 
         # pull all junctions and their outgoing edges
         junctions = self.get_all_junctions()
-        for junction in junctions:
+        junction_positions = {junction: traci.junction.getPosition(junction) for junction in junctions}
+
+        for junction, position in junction_positions.items():
+            plt.scatter(position[0], position[1], s=100, c='lightblue', edgecolors='black', zorder=5)
+            plt.text(position[0], position[1] + 2, junction, fontsize=12, ha='center', zorder=10, 
+                     bbox=dict(facecolor='white', alpha=0.6, edgecolor='none'))
+
+            # get vehicles near the junction
+            vehicles_nearby = traci.junction.getContextSubscriptionResults(junction)
+            vehicle_count = len(vehicles_nearby) if vehicles_nearby else 0
+            plt.text(position[0], position[1] - 5, f"Vehicles: {vehicle_count}", fontsize=10, ha='center', zorder=10, 
+                     bbox=dict(facecolor='white', alpha=0.6, edgecolor='none'))
+
+            # draw edges and count vehicles on them
             edges = traci.junction.getOutgoingEdges(junction)
             for edge in edges:
-                outgoing_junction = traci.edge.getToJunction(edge)  # הצומת שמחובר אליו
-                G.add_edge(junction, outgoing_junction)  # הוספת חיבור לגרף
+                outgoing_junction = traci.edge.getToJunction(edge)
+                outgoing_position = traci.junction.getPosition(outgoing_junction)
+                plt.plot([position[0], outgoing_position[0]], [position[1], outgoing_position[1]], 'gray', zorder=1)
 
-        # graph layout
-        plt.figure(figsize=(8, 6))
-        pos = nx.spring_layout(G, seed=42)  # עיצוב הפריסה של הצמתים
-        nx.draw(G, pos, with_labels=True, node_color="lightblue", edge_color="gray", node_size=1500, font_size=10)
+                # get vehicles on the edge
+                vehicles_on_edge = traci.edge.getLastStepVehicleNumber(edge)
+                mid_x = (position[0] + outgoing_position[0]) / 2
+                mid_y = (position[1] + outgoing_position[1]) / 2
+                plt.text(mid_x, mid_y, str(vehicles_on_edge), fontsize=10, ha='center', zorder=10, 
+                         bbox=dict(facecolor='white', alpha=0.6, edgecolor='none'))
 
         # save and close
         plt.title("SUMO Network Graph")
+        plt.xlabel("X Coordinate")
+        plt.ylabel("Y Coordinate")
+        plt.grid(True)
         plt.savefig("network_graph.png")
         plt.close()
 
