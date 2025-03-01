@@ -1,0 +1,1125 @@
+[2025-02-28 18:16:56] [INFO] [Logger::__init__] Simulation log file initialized.
+[2025-02-28 18:16:57] [INFO] [SimulationRunner::__init__] ✅ Simulation started successfully with SUMO!
+[2025-02-28 18:16:57] [INFO] [TrafficController::__init__] Detected Traffic Lights: ()
+[2025-02-28 18:16:57] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:57] [INFO] [JunctionController::export_network_graph] 📡 Exporting network graph...
+[2025-02-28 18:16:57] [INFO] [JunctionController::export_network_graph] ✅ Network graph exported successfully as 'network_graph.png'
+[2025-02-28 18:16:57] [INFO] [SimulationRunner::run_simulation] 🔹 Step 0: 6 vehicles on the road
+[2025-02-28 18:16:57] [INFO] [VehicleController::update_vehicle_speed] 🚗 Vehicle flow_6.0 speed set to 16.388419075435877 m/s
+[2025-02-28 18:16:57] [INFO] [SimulationRunner::adjust_vehicle_speeds_randomly] 🔀 Randomly adjusted speed of vehicle flow_6.0 to 16.39 m/s
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 17.100), Speed 0.000 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 23.100), Speed 0.000 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 17.100), Speed 0.000 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (17.100, -3.500), Speed 0.000 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (23.100, 496.500), Speed 0.000 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (17.100, 996.500), Speed 0.000 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:57] [INFO] [SimulationRunner::run_simulation] 🔹 Step 1: 6 vehicles on the road
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 18.441), Speed 1.341 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 24.765), Speed 1.665 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 18.730), Speed 1.630 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (18.815, -3.500), Speed 1.715 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (25.302, 496.500), Speed 2.202 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (19.700, 996.500), Speed 2.600 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:57] [INFO] [SimulationRunner::run_simulation] 🔹 Step 2: 6 vehicles on the road
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 21.842), Speed 3.400 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 28.795), Speed 4.030 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 21.998), Speed 3.268 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (22.722, -3.500), Speed 3.907 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (29.517, 496.500), Speed 4.215 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (24.900, 996.500), Speed 5.200 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:57] [INFO] [SimulationRunner::run_simulation] 🔹 Step 3: 6 vehicles on the road
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 26.838), Speed 4.996 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 35.403), Speed 6.608 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 26.996), Speed 4.998 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (28.080, -3.500), Speed 5.358 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (36.321, 496.500), Speed 6.804 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (32.700, 996.500), Speed 7.800 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:57] [INFO] [SimulationRunner::run_simulation] 🔹 Step 4: 6 vehicles on the road
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 33.695), Speed 6.857 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 44.443), Speed 9.039 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 33.764), Speed 6.768 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (34.855, -3.500), Speed 6.775 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (45.302, 496.500), Speed 8.981 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (43.100, 996.500), Speed 10.400 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:57] [INFO] [SimulationRunner::run_simulation] 🔹 Step 5: 6 vehicles on the road
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 43.083), Speed 9.389 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 55.942), Speed 11.500 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 42.510), Speed 8.746 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (44.202, -3.500), Speed 9.347 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (56.220, 496.500), Speed 10.918 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (54.643, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:57] [INFO] [SimulationRunner::run_simulation] 🔹 Step 6: 6 vehicles on the road
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 54.230), Speed 11.147 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 67.770), Speed 11.828 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 53.248), Speed 10.738 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (56.072, -3.500), Speed 11.870 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (69.439, 496.500), Speed 13.219 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (66.185, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:57] [INFO] [SimulationRunner::run_simulation] 🔹 Step 7: 6 vehicles on the road
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 67.149), Speed 12.919 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 80.547), Speed 12.777 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 65.733), Speed 12.485 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (69.381, -3.500), Speed 13.309 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (82.677, 496.500), Speed 13.238 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (77.728, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:57] [INFO] [SimulationRunner::run_simulation] 🔹 Step 8: 6 vehicles on the road
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 81.146), Speed 13.997 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 93.501), Speed 12.954 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 78.493), Speed 12.760 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (83.474, -3.500), Speed 14.093 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (96.149, 496.500), Speed 13.472 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (89.270, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:57] [INFO] [SimulationRunner::run_simulation] 🔹 Step 9: 6 vehicles on the road
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 95.722), Speed 14.576 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 105.985), Speed 12.483 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 92.271), Speed 13.778 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (98.109, -3.500), Speed 14.636 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (109.946, 496.500), Speed 13.798 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (100.813, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:57] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:57] [INFO] [JunctionController::export_network_graph] 📡 Exporting network graph...
+[2025-02-28 18:16:58] [INFO] [JunctionController::export_network_graph] ✅ Network graph exported successfully as 'network_graph.png'
+[2025-02-28 18:16:58] [INFO] [SimulationRunner::run_simulation] 🔹 Step 10: 6 vehicles on the road
+[2025-02-28 18:16:58] [INFO] [VehicleController::update_vehicle_speed] 🚗 Vehicle flow_5.0 speed set to 11.323357904730196 m/s
+[2025-02-28 18:16:58] [INFO] [SimulationRunner::adjust_vehicle_speeds_randomly] 🔀 Randomly adjusted speed of vehicle flow_5.0 to 11.32 m/s
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 109.802), Speed 14.080 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 118.729), Speed 12.744 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 106.133), Speed 13.862 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (112.296, -3.500), Speed 14.186 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (124.247, 496.500), Speed 14.300 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (112.356, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:58] [INFO] [SimulationRunner::run_simulation] 🔹 Step 11: 6 vehicles on the road
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 124.013), Speed 14.211 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 131.631), Speed 12.903 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 118.916), Speed 12.783 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (126.199, -3.500), Speed 13.903 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (135.570, 496.500), Speed 11.323 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (123.898, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:58] [INFO] [SimulationRunner::run_simulation] 🔹 Step 12: 6 vehicles on the road
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 138.110), Speed 14.097 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 144.358), Speed 12.727 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 132.361), Speed 13.446 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (140.927, -3.500), Speed 14.728 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (146.893, 496.500), Speed 11.323 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (135.441, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:58] [INFO] [SimulationRunner::run_simulation] 🔹 Step 13: 6 vehicles on the road
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 151.644), Speed 13.534 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 156.421), Speed 12.062 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 145.934), Speed 13.573 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (155.839, -3.500), Speed 14.912 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (158.217, 496.500), Speed 11.323 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (146.983, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:58] [INFO] [SimulationRunner::run_simulation] 🔹 Step 14: 6 vehicles on the road
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 165.105), Speed 13.461 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 169.336), Speed 12.916 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 159.167), Speed 13.233 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (170.719, -3.500), Speed 14.881 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (169.540, 496.500), Speed 11.323 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (158.526, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:58] [INFO] [SimulationRunner::run_simulation] 🔹 Step 15: 6 vehicles on the road
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 179.543), Speed 14.438 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 182.051), Speed 12.715 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 172.061), Speed 12.894 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (185.536, -3.500), Speed 14.817 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (180.863, 496.500), Speed 11.323 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (170.068, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:58] [INFO] [SimulationRunner::run_simulation] 🔹 Step 16: 6 vehicles on the road
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 193.872), Speed 14.329 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 194.797), Speed 12.746 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 186.049), Speed 13.988 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (200.379, -3.500), Speed 14.843 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (192.187, 496.500), Speed 11.323 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (181.611, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:58] [INFO] [SimulationRunner::run_simulation] 🔹 Step 17: 6 vehicles on the road
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 208.102), Speed 14.231 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 206.917), Speed 12.120 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 198.986), Speed 12.937 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (214.525, -3.500), Speed 14.146 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (203.510, 496.500), Speed 11.323 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (193.154, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:58] [INFO] [SimulationRunner::run_simulation] 🔹 Step 18: 6 vehicles on the road
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 221.667), Speed 13.565 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 219.087), Speed 12.170 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 211.847), Speed 12.862 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (228.802, -3.500), Speed 14.276 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (214.834, 496.500), Speed 11.323 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (204.696, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:58] [INFO] [SimulationRunner::run_simulation] 🔹 Step 19: 6 vehicles on the road
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 235.961), Speed 14.294 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 231.930), Speed 12.843 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 225.095), Speed 13.248 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (243.332, -3.500), Speed 14.530 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (226.157, 496.500), Speed 11.323 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (216.239, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:58] [INFO] [JunctionController::export_network_graph] 📡 Exporting network graph...
+[2025-02-28 18:16:58] [INFO] [JunctionController::export_network_graph] ✅ Network graph exported successfully as 'network_graph.png'
+[2025-02-28 18:16:58] [INFO] [SimulationRunner::run_simulation] 🔹 Step 20: 6 vehicles on the road
+[2025-02-28 18:16:58] [INFO] [VehicleController::update_vehicle_speed] 🚗 Vehicle flow_5.0 speed set to 21.190887683234937 m/s
+[2025-02-28 18:16:58] [INFO] [SimulationRunner::adjust_vehicle_speeds_randomly] 🔀 Randomly adjusted speed of vehicle flow_5.0 to 21.19 m/s
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 249.868), Speed 13.907 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 244.342), Speed 12.412 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 237.846), Speed 12.751 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (257.086, -3.500), Speed 13.755 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (237.480, 496.500), Speed 11.323 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (227.781, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:58] [INFO] [SimulationRunner::run_simulation] 🔹 Step 21: 6 vehicles on the road
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 263.909), Speed 14.041 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 256.965), Speed 12.623 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 250.946), Speed 13.100 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (271.168, -3.500), Speed 14.081 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (251.404, 496.500), Speed 13.923 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (239.324, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:58] [INFO] [SimulationRunner::run_simulation] 🔹 Step 22: 6 vehicles on the road
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 277.807), Speed 13.898 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 269.581), Speed 12.616 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 264.410), Speed 13.465 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (285.870, -3.500), Speed 14.702 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (265.714, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (250.867, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:58] [INFO] [SimulationRunner::run_simulation] 🔹 Step 23: 6 vehicles on the road
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 291.733), Speed 13.926 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 281.489), Speed 11.908 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 277.595), Speed 13.185 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (299.750, -3.500), Speed 13.881 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (280.025, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (262.409, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:58] [INFO] [SimulationRunner::run_simulation] 🔹 Step 24: 6 vehicles on the road
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 305.913), Speed 14.180 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 294.087), Speed 12.598 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 291.421), Speed 13.826 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (313.957, -3.500), Speed 14.206 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (294.336, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (273.952, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:58] [INFO] [SimulationRunner::run_simulation] 🔹 Step 25: 6 vehicles on the road
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 320.016), Speed 14.103 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 306.254), Speed 12.167 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 304.189), Speed 12.768 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (328.326, -3.500), Speed 14.369 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (308.647, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (285.494, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:58] [INFO] [SimulationRunner::run_simulation] 🔹 Step 26: 6 vehicles on the road
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 334.627), Speed 14.611 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 318.939), Speed 12.686 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 317.873), Speed 13.683 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (342.337, -3.500), Speed 14.011 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (322.958, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (297.037, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:58] [INFO] [SimulationRunner::run_simulation] 🔹 Step 27: 6 vehicles on the road
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 348.488), Speed 13.861 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 331.592), Speed 12.652 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 330.623), Speed 12.751 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (356.601, -3.500), Speed 14.264 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (337.269, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (308.580, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:58] [INFO] [SimulationRunner::run_simulation] 🔹 Step 28: 6 vehicles on the road
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 362.658), Speed 14.169 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 344.158), Speed 12.566 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 343.694), Speed 13.070 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (370.977, -3.500), Speed 14.376 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (351.580, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (320.122, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:58] [INFO] [SimulationRunner::run_simulation] 🔹 Step 29: 6 vehicles on the road
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 376.965), Speed 14.307 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 356.965), Speed 12.808 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 356.619), Speed 12.926 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (385.947, -3.500), Speed 14.970 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (365.891, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (331.665, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:58] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:58] [INFO] [JunctionController::export_network_graph] 📡 Exporting network graph...
+[2025-02-28 18:16:59] [INFO] [JunctionController::export_network_graph] ✅ Network graph exported successfully as 'network_graph.png'
+[2025-02-28 18:16:59] [INFO] [SimulationRunner::run_simulation] 🔹 Step 30: 6 vehicles on the road
+[2025-02-28 18:16:59] [INFO] [VehicleController::update_vehicle_speed] 🚗 Vehicle flow_2.0 speed set to 14.634817494273499 m/s
+[2025-02-28 18:16:59] [INFO] [SimulationRunner::adjust_vehicle_speeds_randomly] 🔀 Randomly adjusted speed of vehicle flow_2.0 to 14.63 m/s
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 391.611), Speed 14.647 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 369.906), Speed 12.941 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 370.578), Speed 13.959 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (400.373, -3.500), Speed 14.426 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (380.201, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (343.207, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:59] [INFO] [SimulationRunner::run_simulation] 🔹 Step 31: 6 vehicles on the road
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 406.171), Speed 14.559 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 382.939), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 384.034), Speed 13.456 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (414.634, -3.500), Speed 14.261 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (394.512, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (354.750, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:59] [INFO] [SimulationRunner::run_simulation] 🔹 Step 32: 6 vehicles on the road
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 419.799), Speed 13.629 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 395.972), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 397.551), Speed 13.517 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (428.642, -3.500), Speed 14.009 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (408.823, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (366.293, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:59] [INFO] [SimulationRunner::run_simulation] 🔹 Step 33: 6 vehicles on the road
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 434.517), Speed 14.717 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 409.005), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 410.592), Speed 13.040 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (442.670, -3.500), Speed 14.027 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (423.134, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (377.835, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:59] [INFO] [SimulationRunner::run_simulation] 🔹 Step 34: 6 vehicles on the road
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 449.202), Speed 14.686 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 422.038), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 424.606), Speed 14.015 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (456.590, -3.500), Speed 13.920 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (437.445, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (389.378, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:59] [INFO] [SimulationRunner::run_simulation] 🔹 Step 35: 6 vehicles on the road
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 463.397), Speed 14.194 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 435.071), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 437.849), Speed 13.243 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (471.125, -3.500), Speed 14.535 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (451.756, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (400.920, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:59] [INFO] [SimulationRunner::run_simulation] 🔹 Step 36: 7 vehicles on the road
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 477.823), Speed 14.426 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 17.100), Speed 0.000 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 448.104), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 451.168), Speed 13.319 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (485.654, -3.500), Speed 14.529 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (466.067, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (412.463, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:59] [INFO] [SimulationRunner::run_simulation] 🔹 Step 37: 7 vehicles on the road
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 491.264), Speed 13.441 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 19.540), Speed 2.440 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 461.137), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 465.088), Speed 13.920 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (499.621, -3.500), Speed 13.967 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (477.511, 496.500), Speed 11.444 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (424.005, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:59] [INFO] [SimulationRunner::run_simulation] 🔹 Step 38: 7 vehicles on the road
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 504.787), Speed 13.523 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 24.150), Speed 4.610 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 474.170), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 478.977), Speed 13.889 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (514.582, -3.500), Speed 14.961 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (484.455, 496.500), Speed 6.944 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (435.548, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:59] [INFO] [SimulationRunner::run_simulation] 🔹 Step 39: 7 vehicles on the road
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 518.955), Speed 14.168 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 30.560), Speed 6.410 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 487.203), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 492.306), Speed 13.329 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (529.527, -3.500), Speed 14.946 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (486.899, 496.500), Speed 2.444 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (447.091, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:59] [INFO] [JunctionController::export_network_graph] 📡 Exporting network graph...
+[2025-02-28 18:16:59] [INFO] [JunctionController::export_network_graph] ✅ Network graph exported successfully as 'network_graph.png'
+[2025-02-28 18:16:59] [INFO] [SimulationRunner::run_simulation] 🔹 Step 40: 8 vehicles on the road
+[2025-02-28 18:16:59] [INFO] [VehicleController::update_vehicle_speed] 🚗 Vehicle flow_2.0 speed set to 18.78332399191369 m/s
+[2025-02-28 18:16:59] [INFO] [SimulationRunner::adjust_vehicle_speeds_randomly] 🔀 Randomly adjusted speed of vehicle flow_2.0 to 18.78 m/s
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 533.038), Speed 14.083 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 39.470), Speed 8.910 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 500.236), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 505.491), Speed 13.185 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (544.084, -3.500), Speed 14.556 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (491.943, 496.500), Speed 5.044 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (458.633, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (17.100, 996.500), Speed 0.000 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:59] [INFO] [SimulationRunner::run_simulation] 🔹 Step 41: 8 vehicles on the road
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 547.645), Speed 14.608 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 50.152), Speed 10.682 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 513.269), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 518.831), Speed 13.341 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (557.861, -3.500), Speed 13.777 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (496.971, 496.500), Speed 5.028 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (470.176, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (18.831, 996.500), Speed 1.731 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:59] [INFO] [SimulationRunner::run_simulation] 🔹 Step 42: 8 vehicles on the road
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 561.151), Speed 13.505 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 62.552), Speed 12.400 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 526.302), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 532.448), Speed 13.616 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (571.927, -3.500), Speed 14.066 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (504.599, 496.500), Speed 7.628 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (481.718, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (22.663, 996.500), Speed 3.832 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:59] [INFO] [SimulationRunner::run_simulation] 🔹 Step 43: 8 vehicles on the road
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 575.658), Speed 14.508 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 77.019), Speed 14.466 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 539.335), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 546.322), Speed 13.875 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (585.733, -3.500), Speed 13.806 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (514.827, 496.500), Speed 10.228 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (493.261, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (28.778, 996.500), Speed 6.115 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:59] [INFO] [SimulationRunner::run_simulation] 🔹 Step 44: 8 vehicles on the road
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 589.223), Speed 13.565 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 90.891), Speed 13.872 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 552.368), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 559.931), Speed 13.609 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (600.277, -3.500), Speed 14.544 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (527.655, 496.500), Speed 12.828 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (504.804, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (36.205, 996.500), Speed 7.427 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:59] [INFO] [SimulationRunner::run_simulation] 🔹 Step 45: 9 vehicles on the road
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 602.751), Speed 13.529 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 105.353), Speed 14.463 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 565.401), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 23.100), Speed 0.000 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 572.761), Speed 12.830 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (614.846, -3.500), Speed 14.569 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (541.966, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (516.346, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (44.990, 996.500), Speed 8.785 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:59] [INFO] [SimulationRunner::run_simulation] 🔹 Step 46: 9 vehicles on the road
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 616.943), Speed 14.191 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 119.288), Speed 13.935 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 578.434), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 25.017), Speed 1.917 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 585.590), Speed 12.829 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (628.625, -3.500), Speed 13.778 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (556.277, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (527.889, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (55.203, 996.500), Speed 10.213 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:59] [INFO] [SimulationRunner::run_simulation] 🔹 Step 47: 9 vehicles on the road
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 630.616), Speed 13.673 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 132.786), Speed 13.498 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 591.467), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 28.416), Speed 3.399 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 599.069), Speed 13.479 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (642.818, -3.500), Speed 14.193 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (570.587, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (539.431, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (67.191, 996.500), Speed 11.988 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:59] [INFO] [SimulationRunner::run_simulation] 🔹 Step 48: 9 vehicles on the road
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 645.334), Speed 14.718 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 146.381), Speed 13.594 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 604.500), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 34.262), Speed 5.846 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 612.698), Speed 13.629 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (657.385, -3.500), Speed 14.568 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (584.898, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (550.974, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (79.125, 996.500), Speed 11.934 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:59] [INFO] [SimulationRunner::run_simulation] 🔹 Step 49: 9 vehicles on the road
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 659.500), Speed 14.166 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 160.360), Speed 13.979 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 617.533), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 41.624), Speed 7.362 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 626.233), Speed 13.535 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (671.143, -3.500), Speed 13.758 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (599.209, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (562.517, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (91.264, 996.500), Speed 12.139 m/s, Lane 0
+[2025-02-28 18:16:59] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:16:59] [INFO] [JunctionController::export_network_graph] 📡 Exporting network graph...
+[2025-02-28 18:17:00] [INFO] [JunctionController::export_network_graph] ✅ Network graph exported successfully as 'network_graph.png'
+[2025-02-28 18:17:00] [INFO] [SimulationRunner::run_simulation] 🔹 Step 50: 9 vehicles on the road
+[2025-02-28 18:17:00] [INFO] [VehicleController::update_vehicle_speed] 🚗 Vehicle flow_6.0 speed set to 5.9520582055322 m/s
+[2025-02-28 18:17:00] [INFO] [SimulationRunner::adjust_vehicle_speeds_randomly] 🔀 Randomly adjusted speed of vehicle flow_6.0 to 5.95 m/s
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 673.032), Speed 13.532 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 174.113), Speed 13.754 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 630.566), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 50.546), Speed 8.923 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 640.057), Speed 13.824 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (685.129, -3.500), Speed 13.986 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (613.520, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (574.059, 996.500), Speed 11.543 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (103.392, 996.500), Speed 12.128 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:00] [INFO] [SimulationRunner::run_simulation] 🔹 Step 51: 9 vehicles on the road
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 686.898), Speed 13.867 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 187.722), Speed 13.609 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 643.599), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 61.532), Speed 10.985 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 653.074), Speed 13.017 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (699.018, -3.500), Speed 13.890 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (627.831, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (581.102, 996.500), Speed 7.043 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (114.795, 996.500), Speed 11.403 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:00] [INFO] [SimulationRunner::run_simulation] 🔹 Step 52: 10 vehicles on the road
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 701.609), Speed 14.710 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 201.512), Speed 13.789 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 656.632), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 74.041), Speed 12.509 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 666.635), Speed 13.561 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (713.215, -3.500), Speed 14.197 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (17.100, -3.500), Speed 0.000 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (642.142, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (587.054, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (126.323, 996.500), Speed 11.528 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:00] [INFO] [SimulationRunner::run_simulation] 🔹 Step 53: 10 vehicles on the road
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 715.737), Speed 14.129 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 216.026), Speed 14.515 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 669.665), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 86.031), Speed 11.990 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 679.741), Speed 13.106 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (727.636, -3.500), Speed 14.421 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (19.599, -3.500), Speed 2.499 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (656.453, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (593.006, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (138.307, 996.500), Speed 11.984 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:00] [INFO] [SimulationRunner::run_simulation] 🔹 Step 54: 10 vehicles on the road
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 730.351), Speed 14.613 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 229.494), Speed 13.468 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 682.698), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 97.832), Speed 11.801 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 693.088), Speed 13.346 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (742.662, -3.500), Speed 15.026 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (24.355, -3.500), Speed 4.755 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (670.764, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (598.958, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (150.062, 996.500), Speed 11.755 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:00] [INFO] [SimulationRunner::run_simulation] 🔹 Step 55: 10 vehicles on the road
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 744.953), Speed 14.603 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 243.116), Speed 13.622 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 695.731), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 110.853), Speed 13.021 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 705.933), Speed 12.846 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (756.859, -3.500), Speed 14.197 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (31.586, -3.500), Speed 7.231 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (685.074, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (604.910, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (161.396, 996.500), Speed 11.334 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:00] [INFO] [SimulationRunner::run_simulation] 🔹 Step 56: 10 vehicles on the road
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 758.832), Speed 13.878 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 257.160), Speed 14.044 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 708.764), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 123.630), Speed 12.778 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 718.942), Speed 13.009 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (771.477, -3.500), Speed 14.618 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (41.153, -3.500), Speed 9.567 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (699.385, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (610.862, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (172.700, 996.500), Speed 11.304 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:00] [INFO] [SimulationRunner::run_simulation] 🔹 Step 57: 10 vehicles on the road
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 772.744), Speed 13.913 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 270.473), Speed 13.313 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 721.797), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 136.380), Speed 12.749 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 732.493), Speed 13.551 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (785.679, -3.500), Speed 14.201 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (52.067, -3.500), Speed 10.913 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (713.696, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (616.814, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (184.874, 996.500), Speed 12.175 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:00] [INFO] [SimulationRunner::run_simulation] 🔹 Step 58: 10 vehicles on the road
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 787.007), Speed 14.263 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 284.971), Speed 14.498 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 734.830), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 148.345), Speed 11.965 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 745.389), Speed 12.896 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (800.172, -3.500), Speed 14.493 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (63.094, -3.500), Speed 11.027 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (728.007, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (622.766, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (197.084, 996.500), Speed 12.210 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:00] [INFO] [SimulationRunner::run_simulation] 🔹 Step 59: 10 vehicles on the road
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 801.472), Speed 14.465 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 298.501), Speed 13.530 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 747.863), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 160.537), Speed 12.192 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 759.247), Speed 13.858 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (814.178, -3.500), Speed 14.005 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (73.827, -3.500), Speed 10.733 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (742.318, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (628.718, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (208.790, 996.500), Speed 11.706 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:00] [INFO] [JunctionController::export_network_graph] 📡 Exporting network graph...
+[2025-02-28 18:17:00] [INFO] [JunctionController::export_network_graph] ✅ Network graph exported successfully as 'network_graph.png'
+[2025-02-28 18:17:00] [INFO] [SimulationRunner::run_simulation] 🔹 Step 60: 11 vehicles on the road
+[2025-02-28 18:17:00] [INFO] [VehicleController::update_vehicle_speed] 🚗 Vehicle flow_3.1 speed set to 23.922261833727475 m/s
+[2025-02-28 18:17:00] [INFO] [SimulationRunner::adjust_vehicle_speeds_randomly] 🔀 Randomly adjusted speed of vehicle flow_3.1 to 23.92 m/s
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 815.415), Speed 13.943 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 312.085), Speed 13.584 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 760.896), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 173.562), Speed 13.025 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 772.454), Speed 13.207 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 17.100), Speed 0.000 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (829.015, -3.500), Speed 14.838 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (85.627, -3.500), Speed 11.800 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (756.629, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (634.670, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (220.718, 996.500), Speed 11.928 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:00] [INFO] [SimulationRunner::run_simulation] 🔹 Step 61: 11 vehicles on the road
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 829.841), Speed 14.426 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 326.605), Speed 14.519 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 773.929), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 185.704), Speed 12.142 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 786.309), Speed 13.855 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 19.700), Speed 2.600 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (843.197, -3.500), Speed 14.182 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (96.711, -3.500), Speed 11.084 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (770.940, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (640.622, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (232.276, 996.500), Speed 11.558 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:00] [INFO] [SimulationRunner::run_simulation] 🔹 Step 62: 11 vehicles on the road
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 844.458), Speed 14.617 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 340.121), Speed 13.516 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 786.962), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 198.499), Speed 12.795 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 799.057), Speed 12.748 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 24.900), Speed 5.200 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (857.553, -3.500), Speed 14.356 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (108.574, -3.500), Speed 11.863 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (785.250, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (646.574, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (244.192, 996.500), Speed 11.916 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:00] [INFO] [SimulationRunner::run_simulation] 🔹 Step 63: 11 vehicles on the road
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 858.088), Speed 13.630 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 353.674), Speed 13.553 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 799.995), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 211.329), Speed 12.830 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 812.179), Speed 13.122 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 32.700), Speed 7.800 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (872.333, -3.500), Speed 14.779 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (120.181, -3.500), Speed 11.607 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (799.561, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (652.526, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (255.699, 996.500), Speed 11.507 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:00] [INFO] [SimulationRunner::run_simulation] 🔹 Step 64: 11 vehicles on the road
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 871.680), Speed 13.592 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 368.028), Speed 14.354 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 813.028), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 223.695), Speed 12.366 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 825.153), Speed 12.974 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 43.100), Speed 10.400 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (886.469, -3.500), Speed 14.136 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (131.340, -3.500), Speed 11.160 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (813.872, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (658.478, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (267.717, 996.500), Speed 12.018 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:00] [INFO] [SimulationRunner::run_simulation] 🔹 Step 65: 11 vehicles on the road
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 885.126), Speed 13.446 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 382.014), Speed 13.985 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 826.061), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 235.697), Speed 12.002 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 838.330), Speed 13.178 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 56.100), Speed 13.000 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (900.303, -3.500), Speed 13.834 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (142.070, -3.500), Speed 10.730 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (828.183, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (664.431, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (279.683, 996.500), Speed 11.966 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:00] [INFO] [SimulationRunner::run_simulation] 🔹 Step 66: 11 vehicles on the road
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 898.888), Speed 13.761 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 395.501), Speed 13.487 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 839.094), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 248.667), Speed 12.970 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 852.311), Speed 13.981 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 71.250), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (914.187, -3.500), Speed 13.884 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (153.738, -3.500), Speed 11.668 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (842.494, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (670.383, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (291.876, 996.500), Speed 12.193 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:00] [INFO] [SimulationRunner::run_simulation] 🔹 Step 67: 11 vehicles on the road
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 912.355), Speed 13.467 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 409.388), Speed 13.887 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 852.127), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 261.275), Speed 12.608 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 866.044), Speed 13.733 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 86.400), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (928.630, -3.500), Speed 14.443 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (165.343, -3.500), Speed 11.604 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (856.805, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (676.335, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (303.024, 996.500), Speed 11.148 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:00] [INFO] [SimulationRunner::run_simulation] 🔹 Step 68: 11 vehicles on the road
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 926.681), Speed 14.327 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 423.187), Speed 13.799 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 865.160), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 274.105), Speed 12.830 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 879.815), Speed 13.771 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 101.549), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (943.227, -3.500), Speed 14.598 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (176.223, -3.500), Speed 10.880 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (871.116, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (682.287, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (315.144, 996.500), Speed 12.120 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:00] [INFO] [SimulationRunner::run_simulation] 🔹 Step 69: 11 vehicles on the road
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 940.947), Speed 14.265 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 436.668), Speed 13.481 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 878.193), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 285.839), Speed 11.734 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 892.951), Speed 13.137 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 116.699), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (957.434, -3.500), Speed 14.206 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (187.367, -3.500), Speed 11.145 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (885.427, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:00] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (688.239, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (326.827, 996.500), Speed 11.683 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:01] [INFO] [JunctionController::export_network_graph] 📡 Exporting network graph...
+[2025-02-28 18:17:01] [INFO] [JunctionController::export_network_graph] ✅ Network graph exported successfully as 'network_graph.png'
+[2025-02-28 18:17:01] [INFO] [SimulationRunner::run_simulation] 🔹 Step 70: 11 vehicles on the road
+[2025-02-28 18:17:01] [INFO] [VehicleController::update_vehicle_speed] 🚗 Vehicle flow_6.1 speed set to 9.150048800054545 m/s
+[2025-02-28 18:17:01] [INFO] [SimulationRunner::adjust_vehicle_speeds_randomly] 🔀 Randomly adjusted speed of vehicle flow_6.1 to 9.15 m/s
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 955.439), Speed 14.493 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 450.534), Speed 13.867 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 891.225), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 298.469), Speed 12.630 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 906.788), Speed 13.836 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 131.849), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (971.514, -3.500), Speed 14.080 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (198.708, -3.500), Speed 11.341 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (899.737, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (694.191, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (338.633, 996.500), Speed 11.806 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:01] [INFO] [SimulationRunner::run_simulation] 🔹 Step 71: 11 vehicles on the road
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 969.209), Speed 13.770 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 464.438), Speed 13.904 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 904.258), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 311.329), Speed 12.860 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 920.575), Speed 13.787 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 146.999), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.0: Position (985.718, -3.500), Speed 14.204 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (209.796, -3.500), Speed 11.088 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (914.048, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (700.143, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (347.783, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:01] [INFO] [SimulationRunner::run_simulation] 🔹 Step 72: 11 vehicles on the road
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 982.199), Speed 12.989 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 478.887), Speed 14.449 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 17.100), Speed 0.000 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 917.291), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 323.598), Speed 12.269 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 933.631), Speed 13.055 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 162.149), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (220.957, -3.500), Speed 11.161 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (928.359, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (706.095, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (356.933, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:01] [INFO] [SimulationRunner::run_simulation] 🔹 Step 73: 12 vehicles on the road
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (3.500, 992.119), Speed 9.920 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 493.315), Speed 14.428 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 19.553), Speed 2.453 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 930.324), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 335.436), Speed 11.838 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 946.531), Speed 12.900 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 177.299), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (232.712, -3.500), Speed 11.755 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (942.670, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (23.100, 496.500), Speed 0.000 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (712.047, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (366.083, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:01] [INFO] [SimulationRunner::run_simulation] 🔹 Step 74: 12 vehicles on the road
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (6.403, 996.414), Speed 5.918 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 506.883), Speed 13.568 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 24.174), Speed 4.622 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 943.357), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 347.867), Speed 12.431 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 959.973), Speed 13.443 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 192.448), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (244.412, -3.500), Speed 11.699 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (956.981, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (24.932, 496.500), Speed 1.832 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (717.999, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (375.233, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:01] [INFO] [SimulationRunner::run_simulation] 🔹 Step 75: 12 vehicles on the road
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (12.075, 996.500), Speed 5.678 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 520.957), Speed 14.074 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 30.616), Speed 6.442 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 956.390), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 359.795), Speed 11.928 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 973.466), Speed 13.493 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 207.598), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (256.252, -3.500), Speed 11.841 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (971.292, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (29.237, 496.500), Speed 4.305 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (723.951, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (384.384, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:01] [INFO] [SimulationRunner::run_simulation] 🔹 Step 76: 12 vehicles on the road
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (20.299, 996.500), Speed 8.225 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 534.573), Speed 13.617 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 38.604), Speed 7.988 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 969.423), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 372.228), Speed 12.433 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.0: Position (1003.500, 986.260), Speed 12.793 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 222.748), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (267.924, -3.500), Speed 11.672 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.0: Position (985.603, 496.500), Speed 14.311 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (35.072, 496.500), Speed 5.835 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (729.903, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (393.534, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:01] [INFO] [SimulationRunner::run_simulation] 🔹 Step 77: 10 vehicles on the road
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (31.029, 996.500), Speed 10.730 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 548.651), Speed 14.078 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 48.196), Speed 9.592 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 979.749), Speed 10.325 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 384.815), Speed 12.587 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 237.898), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (278.929, -3.500), Speed 11.006 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (43.096, 496.500), Speed 8.024 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (735.855, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (402.684, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:01] [INFO] [SimulationRunner::run_simulation] 🔹 Step 78: 10 vehicles on the road
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (43.558, 996.500), Speed 12.529 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 562.580), Speed 13.929 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 59.784), Speed 11.588 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (503.500, 985.574), Speed 5.825 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 396.828), Speed 12.013 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 253.048), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (290.183, -3.500), Speed 11.253 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (52.764, 496.500), Speed 9.668 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (741.807, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (411.834, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:01] [INFO] [SimulationRunner::run_simulation] 🔹 Step 79: 10 vehicles on the road
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (57.263, 996.500), Speed 13.706 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 576.242), Speed 13.662 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 73.600), Speed 13.816 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (505.354, 993.250), Speed 8.069 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 409.363), Speed 12.535 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 268.198), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (301.790, -3.500), Speed 11.608 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (63.814, 496.500), Speed 11.050 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (747.759, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (420.984, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:01] [INFO] [JunctionController::export_network_graph] 📡 Exporting network graph...
+[2025-02-28 18:17:01] [INFO] [JunctionController::export_network_graph] ✅ Network graph exported successfully as 'network_graph.png'
+[2025-02-28 18:17:01] [INFO] [SimulationRunner::run_simulation] 🔹 Step 80: 11 vehicles on the road
+[2025-02-28 18:17:01] [INFO] [VehicleController::update_vehicle_speed] 🚗 Vehicle flow_1.0 speed set to 20.82257419100005 m/s
+[2025-02-28 18:17:01] [INFO] [SimulationRunner::adjust_vehicle_speeds_randomly] 🔀 Randomly adjusted speed of vehicle flow_1.0 to 20.82 m/s
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (70.699, 996.500), Speed 13.436 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 589.713), Speed 13.471 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 87.335), Speed 13.735 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (512.399, 996.415), Speed 8.069 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 421.170), Speed 11.807 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 283.347), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (312.866, -3.500), Speed 11.076 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (77.249, 496.500), Speed 13.435 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (753.711, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (430.134, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.2: Position (17.100, 996.500), Speed 0.000 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:01] [INFO] [SimulationRunner::run_simulation] 🔹 Step 81: 11 vehicles on the road
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (85.423, 996.500), Speed 14.723 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 603.272), Speed 13.560 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 101.375), Speed 14.040 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (520.462, 996.500), Speed 8.069 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 433.445), Speed 12.275 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 298.497), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (324.284, -3.500), Speed 11.417 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (91.489, 496.500), Speed 14.239 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (759.663, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (439.284, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.2: Position (18.536, 996.500), Speed 1.436 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:01] [INFO] [SimulationRunner::run_simulation] 🔹 Step 82: 11 vehicles on the road
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (100.146, 996.500), Speed 14.723 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 617.126), Speed 13.853 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 115.248), Speed 13.873 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (531.131, 996.500), Speed 10.669 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 445.555), Speed 12.110 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 313.647), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (335.131, -3.500), Speed 10.847 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (105.382, 496.500), Speed 13.893 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (765.616, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (448.434, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.2: Position (21.519, 996.500), Speed 2.983 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:01] [INFO] [SimulationRunner::run_simulation] 🔹 Step 83: 11 vehicles on the road
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (114.869, 996.500), Speed 14.723 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 631.521), Speed 14.395 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 128.884), Speed 13.636 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (544.164, 996.500), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 457.918), Speed 12.363 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 328.797), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (345.985, -3.500), Speed 10.854 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (119.891, 496.500), Speed 14.509 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (771.568, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (457.584, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.2: Position (26.449, 996.500), Speed 4.930 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:01] [INFO] [SimulationRunner::run_simulation] 🔹 Step 84: 11 vehicles on the road
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (129.593, 996.500), Speed 14.723 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 645.842), Speed 14.321 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 142.490), Speed 13.606 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (557.197, 996.500), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 469.745), Speed 11.827 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 343.947), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (356.692, -3.500), Speed 10.708 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (133.421, 496.500), Speed 13.530 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (777.520, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (466.734, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.2: Position (33.966, 996.500), Speed 7.517 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:01] [INFO] [SimulationRunner::run_simulation] 🔹 Step 85: 11 vehicles on the road
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (144.316, 996.500), Speed 14.723 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 659.701), Speed 13.858 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 156.327), Speed 13.838 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (570.230, 996.500), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 482.535), Speed 12.790 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 359.096), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (367.645, -3.500), Speed 10.953 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (147.214, 496.500), Speed 13.793 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (783.472, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (475.884, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.2: Position (43.727, 996.500), Speed 9.761 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:01] [INFO] [SimulationRunner::run_simulation] 🔹 Step 86: 11 vehicles on the road
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (159.040, 996.500), Speed 14.723 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 673.777), Speed 14.076 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 169.844), Speed 13.517 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (583.263, 996.500), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 494.306), Speed 11.772 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 374.246), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (378.817, -3.500), Speed 11.172 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (161.070, 496.500), Speed 13.856 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (789.424, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (485.034, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.2: Position (54.992, 996.500), Speed 11.264 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:01] [INFO] [SimulationRunner::run_simulation] 🔹 Step 87: 11 vehicles on the road
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (173.763, 996.500), Speed 14.723 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 687.495), Speed 13.718 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 183.027), Speed 13.183 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (596.296, 996.500), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 506.787), Speed 12.480 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 389.396), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (389.549, -3.500), Speed 10.732 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (175.336, 496.500), Speed 14.266 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (795.376, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (494.184, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.2: Position (68.166, 996.500), Speed 13.174 m/s, Lane 0
+[2025-02-28 18:17:01] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:02] [INFO] [SimulationRunner::run_simulation] 🔹 Step 88: 11 vehicles on the road
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (188.486, 996.500), Speed 14.723 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 700.866), Speed 13.372 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 196.430), Speed 13.403 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (609.329, 996.500), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 519.172), Speed 12.386 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 404.546), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (401.100, -3.500), Speed 11.551 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (189.863, 496.500), Speed 14.527 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (801.328, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (503.334, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.2: Position (82.758, 996.500), Speed 14.593 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:02] [INFO] [SimulationRunner::run_simulation] 🔹 Step 89: 11 vehicles on the road
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (203.210, 996.500), Speed 14.723 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 714.875), Speed 14.009 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 210.637), Speed 14.207 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (622.362, 996.500), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 531.881), Speed 12.709 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 419.696), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (412.783, -3.500), Speed 11.683 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (203.891, 496.500), Speed 14.028 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (807.280, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (512.484, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.2: Position (98.229, 996.500), Speed 15.470 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:02] [INFO] [JunctionController::export_network_graph] 📡 Exporting network graph...
+[2025-02-28 18:17:02] [INFO] [JunctionController::export_network_graph] ✅ Network graph exported successfully as 'network_graph.png'
+[2025-02-28 18:17:02] [INFO] [SimulationRunner::run_simulation] 🔹 Step 90: 12 vehicles on the road
+[2025-02-28 18:17:02] [INFO] [VehicleController::update_vehicle_speed] 🚗 Vehicle flow_5.1 speed set to 21.36270745578526 m/s
+[2025-02-28 18:17:02] [INFO] [SimulationRunner::adjust_vehicle_speeds_randomly] 🔀 Randomly adjusted speed of vehicle flow_5.1 to 21.36 m/s
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (217.933, 996.500), Speed 14.723 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 729.356), Speed 14.481 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 224.390), Speed 13.753 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (635.395, 996.500), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 544.709), Speed 12.828 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.2: Position (503.500, 23.100), Speed 0.000 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 434.846), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (424.458, -3.500), Speed 11.674 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (218.081, 496.500), Speed 14.189 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (813.232, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (521.634, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.2: Position (113.754, 996.500), Speed 15.525 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:02] [INFO] [SimulationRunner::run_simulation] 🔹 Step 91: 12 vehicles on the road
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (232.657, 996.500), Speed 14.723 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 743.320), Speed 13.964 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 237.488), Speed 13.097 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (648.428, 996.500), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 556.967), Speed 12.257 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.2: Position (503.500, 25.296), Speed 2.196 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 449.995), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (436.199, -3.500), Speed 11.741 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (232.625, 496.500), Speed 14.544 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (819.184, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (530.784, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.2: Position (129.012, 996.500), Speed 15.259 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:02] [INFO] [SimulationRunner::run_simulation] 🔹 Step 92: 12 vehicles on the road
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (247.380, 996.500), Speed 14.723 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 757.457), Speed 14.136 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 250.595), Speed 13.108 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (661.461, 996.500), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 569.693), Speed 12.726 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.2: Position (503.500, 29.406), Speed 4.109 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 465.145), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (447.622, -3.500), Speed 11.423 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (247.169, 496.500), Speed 14.544 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (825.136, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (539.934, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.2: Position (143.866, 996.500), Speed 14.854 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:02] [INFO] [SimulationRunner::run_simulation] 🔹 Step 93: 12 vehicles on the road
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (262.103, 996.500), Speed 14.723 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 771.373), Speed 13.916 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 263.555), Speed 12.960 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (674.494, 996.500), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 582.593), Speed 12.900 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.2: Position (503.500, 36.073), Speed 6.667 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 480.295), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (459.101, -3.500), Speed 11.479 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (261.713, 496.500), Speed 14.544 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (831.088, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (549.084, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.2: Position (158.313, 996.500), Speed 14.447 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:02] [INFO] [SimulationRunner::run_simulation] 🔹 Step 94: 12 vehicles on the road
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (276.827, 996.500), Speed 14.723 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 784.974), Speed 13.602 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 277.151), Speed 13.595 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (687.527, 996.500), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 594.410), Speed 11.817 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.2: Position (503.500, 44.348), Speed 8.275 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 495.445), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (470.333, -3.500), Speed 11.231 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (276.258, 496.500), Speed 14.544 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (837.040, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (558.234, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.2: Position (173.529, 996.500), Speed 15.217 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:02] [INFO] [SimulationRunner::run_simulation] 🔹 Step 95: 12 vehicles on the road
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (291.550, 996.500), Speed 14.723 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 799.390), Speed 14.415 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 290.264), Speed 13.113 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (700.560, 996.500), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 607.078), Speed 12.668 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.2: Position (503.500, 53.996), Speed 9.648 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 510.595), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (481.673, -3.500), Speed 11.340 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (290.802, 496.500), Speed 14.544 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (842.992, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (567.385, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.2: Position (189.068, 996.500), Speed 15.538 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:02] [INFO] [SimulationRunner::run_simulation] 🔹 Step 96: 12 vehicles on the road
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (306.274, 996.500), Speed 14.723 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 813.177), Speed 13.787 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 303.554), Speed 13.290 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (713.593, 996.500), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 618.896), Speed 11.818 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.2: Position (503.500, 65.262), Speed 11.266 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 525.745), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (492.943, -3.500), Speed 11.270 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (305.346, 496.500), Speed 14.544 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (848.944, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (576.535, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.2: Position (204.068, 996.500), Speed 15.000 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:02] [INFO] [SimulationRunner::run_simulation] 🔹 Step 97: 12 vehicles on the road
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (320.997, 996.500), Speed 14.723 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 826.945), Speed 13.768 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 317.716), Speed 14.162 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (726.626, 996.500), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 631.741), Speed 12.845 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.2: Position (503.500, 78.963), Speed 13.702 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 540.894), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (503.874, -3.500), Speed 10.931 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (319.890, 496.500), Speed 14.544 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (854.896, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (585.685, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.2: Position (219.256, 996.500), Speed 15.189 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:02] [INFO] [SimulationRunner::run_simulation] 🔹 Step 98: 12 vehicles on the road
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (335.720, 996.500), Speed 14.723 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 841.268), Speed 14.323 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 331.652), Speed 13.936 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (739.659, 996.500), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 644.154), Speed 12.414 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.2: Position (503.500, 91.953), Speed 12.990 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 556.044), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (514.726, -3.500), Speed 10.852 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (334.434, 496.500), Speed 14.544 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (860.848, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (594.835, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.2: Position (234.035, 996.500), Speed 14.778 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [JunctionController::get_all_junctions] 📍 Static Junctions Retrieved: (':A1_10_0', ':A1_11_0', ':A1_9_0', ':B0_10_0', ':B0_11_0', ':B0_9_0', ':B1_16_0', ':B1_17_0', ':B1_18_0', ':B1_19_0', ':B2_10_0', ':B2_11_0', ':B2_9_0', ':C1_10_0', ':C1_11_0', ':C1_9_0', 'A0', 'A1', 'A2', 'B0', 'B1', 'B2', 'C0', 'C1', 'C2')
+[2025-02-28 18:17:02] [INFO] [SimulationRunner::run_simulation] 🔹 Step 99: 12 vehicles on the road
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.0: Position (350.444, 996.500), Speed 14.723 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.1: Position (3.500, 855.760), Speed 14.492 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_1.2: Position (3.500, 344.681), Speed 13.029 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.0: Position (752.692, 996.500), Speed 13.033 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.1: Position (503.500, 656.489), Speed 12.334 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_2.2: Position (503.500, 104.970), Speed 13.016 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_3.1: Position (1003.500, 571.194), Speed 15.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_4.1: Position (525.961, -3.500), Speed 11.235 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_5.1: Position (348.979, 496.500), Speed 14.544 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.0: Position (866.801, 996.500), Speed 5.952 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.1: Position (603.985, 996.500), Speed 9.150 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [VehicleController::log_vehicle_info] 🚙 Vehicle flow_6.2: Position (249.181, 996.500), Speed 15.146 m/s, Lane 0
+[2025-02-28 18:17:02] [INFO] [SimulationRunner::run_simulation] 
+✅ Most vehicles on the road: 12, at step 73
+[2025-02-28 18:17:02] [INFO] [SimulationRunner::run_simulation] 🚀 Fastest vehicle: flow_6.2 with speed 15.54 m/s at step 95
+[2025-02-28 18:17:02] [INFO] [SimulationRunner::run_simulation] 🔚 Simulation finished and closed successfully!
