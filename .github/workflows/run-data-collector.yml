@@ -1,0 +1,27 @@
+name: Run Data Collector
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-data-collector:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        cd SmartTransportationRuppin/data_collector
+        pip install -r requirements.txt
+
+    - name: Run data collector
+      run: |
+        cd SmartTransportationRuppin/data_collector
+        python -m main.main
