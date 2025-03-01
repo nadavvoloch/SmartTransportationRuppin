@@ -3,3 +3,9 @@ sumo_running_simulation/core/__pycache__
 sumo_running_simulation/main/__pycache__/main.cpython-39.pyc
 sumo_running_simulation/sumo_config/*.log
 sumo_running_simulation/main/*.log
+
+data_collector/sumo_config/SUMO.log
+data_collector/core/__pycache__
+data_collector/main/__pycache__/main.cpython-39.pyc
+data_collector/sumo_config/*.log
+data_collector/main/*.log
